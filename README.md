@@ -10,6 +10,10 @@
 - Deployed with GitHub Pages
 
 ## Tech Stack
+React | Firebase | Firestore | CSS Modules
+
+
+## Quick Start
 npm install
 npm start
 
