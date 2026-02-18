@@ -31,7 +31,7 @@ function Intro() {
         <div className="intro-image-wrapper">
           <div className="intro-image-border">
             <img
-                  src={`${process.env.PUBLIC_URL}/assets/PROFILE.jpeg`} 
+                  src={process.env.PUBLIC_URL + '/assets/PROFILE.jpeg'}
                   alt="Akshaya Mamillapalli"
                   className="intro-image"/>
 
