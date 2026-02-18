@@ -1,0 +1,16 @@
+:root {
+  --accent: #1d9bf0;          /* main accent color */
+  --accent-soft: rgba(29, 155, 240, 0.08);
+}
+.footer {
+  text-align: center;
+  padding: 18px 0 24px;
+  background: #0b1120;
+  color: #9ca3af;
+  font-size: 13px;
+  margin-top: 50px;
+}
+
+.footer p {
+  margin: 0;
+}

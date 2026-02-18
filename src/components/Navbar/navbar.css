@@ -1,0 +1,81 @@
+:root {
+  --accent: #1d9bf0;          /* main accent color */
+  --accent-soft: rgba(29, 155, 240, 0.08);
+}
+.navbar {
+  background: linear-gradient(90deg, #111827, #1f2933);
+  color: #fff;
+  padding: 14px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+/* Keep content width aligned with sections */
+.navbar > .logo,
+.navbar > nav {
+  flex: 0 0 auto;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+/* Nav links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 26px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #d1d5db;
+  font-size: 20px;
+  position: relative;
+  padding-bottom: 4px;
+  transition: color 0.2s ease;
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: #06b6d4;
+  transition: width 0.25s ease;
+}
+
+.nav-links a:hover {
+  color: #ffffff;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+/* Mobile: slightly smaller padding */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 12px 20px;
+  }
+}
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f3f4f6;
+  color: #0f172a;
+  line-height: 1.6;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #0f172a, #1d3557);
+}

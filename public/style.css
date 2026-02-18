@@ -1,0 +1,43 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base body styles */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color:#2f4f4f;
+  color: white;
+  line-height: 1.6;
+}
+
+/* Generic section: keep minimal, sections define their own layout */
+section {
+  /* remove big padding & forced centering */
+  padding: 0;
+  text-align: left;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+/* Links */
+a {
+  color: inherit;
+}
+
+/* Make sure images never overflow container */
+img {
+  max-width: 100%;
+  display: block;
+}
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #0f172a, #1d3557); /* deep blue/navy */
+}
